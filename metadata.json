@@ -1,0 +1,6 @@
+{
+  "name": "Sarkar AI Receptionist",
+  "description": "Autonomous offline call receptionist and screener assistant with rule-based AI dialogue and auto-answering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

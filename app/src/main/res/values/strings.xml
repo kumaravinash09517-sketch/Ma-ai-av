@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sarkar AI</string>
+    <string name="accessibility_service_label">Sarkar Call Auto-Answer Assistant</string>
+    <string name="accessibility_service_description">Used by Sarkar AI Receptionist to safely auto-accept incoming calls when enabled in hands-free mode.</string>
+</resources>
