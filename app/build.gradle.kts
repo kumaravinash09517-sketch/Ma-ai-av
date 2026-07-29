@@ -1,4 +1,4 @@
-import com.google.gms.googleservices.GoogleServicesPlugin.MissingGoogleServicesStrategy
+Import com.google.gms.googleservices.GoogleServicesPlugin.MissingGoogleServicesStrategy
 
 plugins {
   alias(libs.plugins.android.application)
@@ -112,12 +112,8 @@ dependencies {
   implementation(libs.logging.interceptor)
   implementation(libs.moshi.kotlin)
   implementation(libs.okhttp)
+  // implementation(libs.play.services.location)
   implementation(libs.retrofit)
-  
-  // Added Google Play Services Nearby & Location for Mesh Chat
-  implementation("com.google.android.gms:play-services-nearby:19.3.0")
-  implementation("com.google.android.gms:play-services-location:21.3.0")
-
   testImplementation(libs.androidx.compose.ui.test.junit4)
   testImplementation(libs.androidx.core)
   testImplementation(libs.androidx.junit)
@@ -136,4 +132,4 @@ dependencies {
   debugImplementation(libs.androidx.compose.ui.tooling)
   "ksp"(libs.androidx.room.compiler)
   "ksp"(libs.moshi.kotlin.codegen)
-}
+} 
